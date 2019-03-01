@@ -47,7 +47,8 @@ To view the files that you added to flux scratch
 
 Sequencing pipeline:
 1. load the geomicro container by typing: "comics"
-2. type "gunzip Biofilm1_94978_AGTCAA_S13_L002_R*" to remove the gunzip format from both (took around 15 min but can be less/more)
+2. type "gunzip Biofilm1_94978_AGTCAA_S13_L002_R*" while in the folder where your data is located to remove the gunzip format from all the files within the folder (took around 15 min but can be less/more)
+
 
                        
     
