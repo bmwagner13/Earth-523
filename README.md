@@ -41,13 +41,14 @@ To begin with flux, you must add the geomicro repository (in order to use Greg's
 3. Save this as a default module so it will be automatically loaded each time you login: type "module save"
 
 To view the files that you added to flux scratch
-1. cd /scratch/engin_flux/brettwag (cd = change directory (file))
+1. type: "cd /scratch/engin_flux/brettwag" (cd = change directory (file))
     other helpful command type "pwd" to show the name of the present working directory (which file that you're in)
                           type "ls" to show what files are located in your pwd
 
 Sequencing pipeline:
 1. load the geomicro container by typing: "comics"
-2. 
+2. type "gunzip Biofilm1_94978_AGTCAA_S13_L002_R*" to remove the gunzip format from both (took around 15 min but can be less/more)
+
                        
     
 
