@@ -1,0 +1,13 @@
+within the omics shell type:
+mkdir FastQC_results # creates folder for results
+fastqc Biofilm2_94979_AGTTCC_S14_L002_R* -o FastQC_results #Runs fastqc on biofilm2 samples and outputs (-o) to the FastQC_results folder
+
+Move the .html files onto your computer via WinSCP and analyze them
+Biofilm2 forward data:
+  !
+
+For Trimming data use trimmomatic: (the following is one line)
+java -jar trimmomatic-0.35.jar PE -phred33 input_forward.fq.gz input_reverse.fq.gz 
+output_forward_paired.fq.gz output_forward_unpaired.fq.gz output_reverse_paired.fq.gz 
+output_reverse_unpaired.fq.gz ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+
