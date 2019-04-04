@@ -1,0 +1,21 @@
+Upload NCyc files to flux
+Run: 
+makeblastdb -in NCyc_100.faa -dbtype prot
+makeblastdb -in NCyc_100.faa -dbtype nucl
+
+Run BLAST!
+
+The input parameters are:
+
+query sequences (-query kpneumo_all.pfasta),
+
+the database to search against (-db ardb_KPC_genes.pfasta),
+
+the name of a file to store your results (-out KPC_blastp_results),
+
+output format (-outfmt 6),
+
+e-value cutoff (-evalue 1e-100),
+
+number of database sequences to return (-max_target_seqs 1) (Note that when using large databases, this might not give you the best hit. See here for more details.)
+blastp -query [] -db [] -out Biofilm1_blastp_results.tsv -outfmt 6 -evalue 1e-100 -max_target_seqs 1
