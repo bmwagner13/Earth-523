@@ -14,6 +14,8 @@ Etherpad from software carpentry: https://pad.carpentries.org/2019-03-04-umich-g
 
 Microbiol 612 class github: https://github.com/alipirani88/Comparative_Genomics
 
+NCyc nitrogen gene database: https://github.com/qichao1984/NCyc
+
 
 
 To access Michigan flux account via Windows + Putty:
