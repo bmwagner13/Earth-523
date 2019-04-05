@@ -16,6 +16,7 @@ Microbiol 612 class github: https://github.com/alipirani88/Comparative_Genomics
 
 NCyc nitrogen gene database: https://github.com/qichao1984/NCyc
 
+KEGG Nitrogen pathways: https://www.genome.jp/kegg-bin/show_pathway?map=map00910&show_description=show
 
 
 To access Michigan flux account via Windows + Putty:
