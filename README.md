@@ -57,7 +57,7 @@ Use the following format to create a .pbs file which can be submitted as a job
 
 #PBS -N "NAME INSERT HERE"
 #PBS -A earth523w19_fluxm
-#PBS -q fluxod
+#PBS -q fluxm
 #PBS -l nodes=1:ppn=4,pmem=4GB,walltime=1:00:00,qos=flux
 #PBS -M brettwag@umich.edu
 #PBS -m abe
