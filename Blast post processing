@@ -8,3 +8,6 @@ The second sort picks the first line from each query (this can be piped to a new
 
 To create a blast file with the name of the gene instead of the subgene in the database category:
 sed -f id2gene.map.copy.txt output_Biofilm1fa.pb > output_Biofilm1_with_gene
+
+To get the number of each hits for each gene in 1 column with its corresponding gene name in a second column:
+cut -f2 output_Suspended1_best_hit_with_gene | sort | uniq -c > Suspended1_Ngenes
