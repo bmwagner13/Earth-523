@@ -2,3 +2,6 @@ To find the best hit for a blast output:
 sort -k1,1 -k12,12nr -k11,11n "insert name of blast output file without quotes" | sort -u -k1,1 --merge
 The first sort orders the blast output by query name then by the 12th column in descending order (bit score), then by 11th column ascending (evalue).
 The second sort picks the first line from each query (this can be piped to a new sorted output file.
+
+To create a blast file with the name of the gene instead of the subgene in the database category:
+sed -f id2gene.map.copy.txt output_Biofilm1fa.pb > output_Biofilm1_with_gene
