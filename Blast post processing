@@ -1,3 +1,6 @@
+To do first filter of blast outputs on e-value and bit score:
+perl postBlast.pl -b sample.blastn -p 95 -s 50 -e 1e-5 -o sample.pb.blastn
+
 To find the best hit for a blast output:
 sort -k1,1 -k12,12nr -k11,11n "insert name of blast output file without quotes" | sort -u -k1,1 --merge
 The first sort orders the blast output by query name then by the 12th column in descending order (bit score), then by 11th column ascending (evalue).
